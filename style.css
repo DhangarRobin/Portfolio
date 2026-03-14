@@ -1,0 +1,398 @@
+
+.hader_section{
+    padding-top: 20px;
+ display: flex;
+ gap: 30px;
+    /* height: 10px; */
+    width: 1260px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -5px;
+}   
+.heder_name{
+     
+    margin-left: 150px;
+    a{
+         color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 700;
+    transition: 1s; 
+    }
+    a:hover{
+        color: orange;
+    }
+}
+.all_heder_tag{
+    display: flex;
+    gap: 30px;
+    margin-left: 350px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+a{
+     color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+   text-decoration: none;
+   font-size: 17px;
+   font-weight: 600;
+}
+
+
+}
+.part_1_about{
+    height: 650px;
+    width: 1275px;
+    background-color: rgb(233, 233, 233);
+     margin-left: -5px;
+     p{
+        font-size: 40px;
+        padding: 200px 0px 0px 200px;
+        font-weight: 700;
+         font-family: Arial, Helvetica, sans-serif;
+                  
+           span{
+        color: orange;
+     }
+     } 
+     button{
+        height: 40px;
+        width: 120px;
+        color: white;
+        background-color: blue;
+        border: none;
+        border-radius: 50px;
+        margin-top: -20px;
+        transition: 1s;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+       
+     }
+     button:hover{
+        transform: scale(108%);
+     }
+}
+.change_skile{
+     font-size: 25px;
+        padding: 0px 0px 0px 200px;
+        font-weight: 700;
+        margin-top: -25px;
+         font-family: Arial, Helvetica, sans-serif;
+}
+ .r2{
+            color: #be3131;
+            left: 50px;
+            font-size: 30px;
+            animation: fade 1.7s ease-in-out infinite alternate;   
+        }
+        @keyframes fade{
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+        }
+        .flex_main{
+            display: flex;
+            gap: 30px;
+            margin-top: 30px;
+            font-size: 40px;
+            color: #1922a3;
+            a{
+                transition: 1s;
+            }
+            a:hover{
+                 transform: scale(120%);
+            }
+        }
+        .photo_div{
+            img{
+                border: 10px solid rgb(191, 188, 188);
+                height: 400px;
+                width: 300px;
+                border-radius: 50%;
+                float: right;
+                margin-top: -350px;
+                margin-right: 200px;
+                transition: 1s;
+            }
+            img:hover{
+                transform: skewX(5deg);
+                 border: 10px solid rgb(255, 255, 255);
+
+            }
+        }
+        .about_me_div{
+            height: 650px;
+            width: 1275px;
+            margin-left: -5px;
+            color: aliceblue;
+        }
+        .tags{
+            color: black;
+            h1{
+              text-align: center;
+              margin-top: 20px;
+              font-weight: 700;
+                font-family: Arial, Helvetica, sans-serif;
+                span{
+                    color: purple;
+                }
+            }
+        }
+        .img_tage_divv{
+img{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 200px;
+    border: 10px solid rgb(239, 215, 239);
+    transition: 1s;
+}
+img:hover{
+    border: 10px solid rgb(41, 125, 215);
+    transform: scale(91%);
+}
+        }
+        .text_tage{
+            float:right;
+            margin-top: 100px;
+            margin-right: 190px;
+            color: black;
+             font-family: Arial, Helvetica, sans-serif;
+             h3{
+                font-size: 25px;
+             }
+             h4{
+                margin-top: -10px;
+             }
+             button{
+                height: 40px;
+                width: 120px;
+                background-color: blue;
+                border: none;
+                border-radius: 10px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+             }
+            
+        }
+       .skile_box{
+        height: 600px;
+        width: 1276px;
+        background-color: #1922a3;
+        h1{
+            text-align: center;
+            padding-top: 20px;
+            color: white;
+        }
+       }
+       .box_flex{
+        display: flex;
+        gap: 20px;
+        padding-top: 20px;
+        padding-left: 160px;
+       }
+       .box_in_box{
+        height: 350px;
+        width: 1000px;
+        margin-top: 100px;
+        margin-left: 150px;
+        background-color: rgba(69, 69, 209, 0.498);
+        box-shadow: 10px 10px 10px 1px;
+       
+       }
+       .boxx_1{
+        height: 130px;
+        width: 150px;
+        border-radius: 10px;
+        background-color: black;
+         transition: 1s;
+         box-shadow: 1px 1px 1px 1px rgb(208, 199, 199);
+        
+        img{
+            height: 30px;
+            width: 30px;
+            padding: 30px 0px 0px 60px;
+        }
+        h4{
+            color: white;
+            font-size: 20px;
+            margin-top: 20px;
+        text-align: center;
+         font-family: Arial, Helvetica, sans-serif;
+        }
+       }
+       .boxx_1:hover{
+        transform: scale(1.06);
+       }
+       .education_div{
+        height: 600px;
+        width: 1275px;
+        background-color: rgb(215, 230, 250);
+       
+       }
+       .edu_teg{
+        padding-top: 20px;
+        h1{
+            
+             font-family: Arial, Helvetica, sans-serif;
+             text-align: center;
+             font-weight: 600;
+             span{
+                color: blueviolet;
+             }
+        }
+        p{
+            text-align: center;
+             font-family: Arial, Helvetica, sans-serif;
+             font-weight: 400;
+        }
+      
+       }
+         .card_colleg{
+            height: 200px;
+            width: 900px;
+            background-color: white;
+          margin-left: 200px;
+          transition: 1s;
+          margin-top: 50px;
+          img{
+            height: 200px;
+            width: 200px;
+          }
+        }
+        .card_colleg:hover{
+           box-shadow: 2px 2px 2px 2px rgb(59, 58, 57);
+        }
+        .teges_section{
+            font-family: Arial, Helvetica, sans-serif;
+        float: right;
+       margin-right: 250px;
+       h1{
+        color: rgb(32, 32, 124);
+       }
+       span{
+        color: rgb(51, 156, 107);
+       }
+
+        }
+         .card_school{
+            height: 150px;
+            width: 900px;
+            background-color: white;
+          margin-left: 200px;
+          transition: 1s;
+          margin-top: 20px;
+          img{
+            height: 150px;
+            width: 150px;
+          }
+        }
+        .card_school:hover{
+           box-shadow: 2px 2px 2px 2px rgb(59, 58, 57);
+        }
+        .teges_section_1{
+            font-family: Arial, Helvetica, sans-serif;
+        float: right;
+       margin-right: 290px;
+       h1{
+        color: rgb(32, 32, 124);
+       }
+         span{
+        color: rgb(51, 156, 107);
+       }
+    }
+
+    .contect_div{
+        height: 500px;
+        width: 1275px;
+        background-color: #bccdff;
+        margin-top: -22px;
+        h1{
+            text-align: center;
+            padding-top: 20px;
+        }
+        span{
+            color: blueviolet;
+        }
+    }
+    .in_box_contect{
+        height: 400px;
+        width: 1000px;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 170px;
+        img{
+            height: 300px;
+            width: 300px;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+    }
+    .input_box{
+        float: right;
+        display: grid;
+        gap: 25px;
+        margin-right: 130px;
+        margin-top: 40px;
+        
+        input{
+            height: 30px;
+        width: 290px;
+        }
+         span{
+              input{
+                height: 90px;
+               width: 290px;
+              }
+        }
+        button{
+            height: 50px;
+            width: 150px;
+            color: white;
+            background-color: #1827ff;
+            border: none;
+            border-radius: 10px;
+            margin-left: 150px;
+        }
+       
+    }
+    .foter_div{
+        height: 300px;
+        width: 1275px;
+        background-color: #121648;
+    }
+    .div_flex_foter{
+        display: flex;
+        gap: 100px;
+    }
+    .ferst_div{
+        color: white;
+        margin-left: 150px;
+        margin-top: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .second_div{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 50px;
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+    .therd_div{
+        color: white;
+        margin-top: 50px;
+        margin-left: 110px;
+        font-family: Arial, Helvetica, sans-serif;
+        a{
+            font-size: 30px;
+        }
+    }
+  
